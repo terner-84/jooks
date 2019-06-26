@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jookx page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/jooks.css">
+    </head>
+    <body>
+        <div id="in">
+            <input type="number" id="count" name="count" min="10" max="100">
+            <button id="btn">Generuj</button>
+
+        </div>
+        <div id="out">
+
+        </div>
+
+        <div class="w3-container">
+            <div class="w3-card-4" id="formWrapper">
+                <form class="w3-container" id="adminSetsForm" autocomplete="off">
+                    <p>
+                        <label class="w3-text-blue"><b>First Name</b></label>
+                        <input class="w3-input w3-border" type="text" name="jmeno"></p>
+                    <p id="ssNumbers">
+                        <span class="w3-tag w3-margin-right w3-large w3-green pretty">A</span>
+                        <span class="w3-tag w3-margin-right w3-large w3-green pretty">B</span>
+                        <span class="w3-tag w3-margin-right w3-large w3-green pretty">C</span>
+                        <span class="w3-tag w3-margin-right w3-large w3-green pretty">D</span></p>
+
+                    <p id="userRemoved"></p>
+
+                    <p>
+                        <button class="w3-btn w3-blue w3-margin-right">Register</button>
+                        
+                    </p>
+
+                </form>
+            </div>
+
+            <div id="formResDiv">
+
+
+                <table id="users" class="w3-table-all w3-hoverable">
+                    <p><button id="displayAll" class="w3-btn w3-blue">Display All</button></p>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Sets</th>
+                            <th>Edit</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8.6.2019, 18:34:20
+    Author     : hanus
+*/
+
+#formWrapper {
+    width: 640px;
+    margin: 20px auto;
+    background-color: #def;
+    
+}
+
+.pretty {
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.pretty:hover {
+    border: 1px solid green;
+}
+
+#formResDiv {
+    width: 800px;
+    margin: 20px auto;
+    background-color: #efe;
+    padding: 16px;
+}
+
+.selectedSet {
+    background-color: #673ab7;
+    color: #efe;
+}
+
+.deleter {
+    border: 1px solid red;
+    padding: 3px;
+    cursor: pointer;
+}
